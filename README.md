@@ -43,8 +43,6 @@
     </div>
 
     <script src="game.js"></script>
-</body>
-</html>
 * {
     margin: 0;
     padding: 0;
@@ -253,4 +251,5 @@ body {
         font-size: 2em;
     }
 }
-
+</body>
+</html>
