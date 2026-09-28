@@ -1,2 +1,47 @@
 # cookie-clicker
-An incremental clicker game - click cookies to earn currency and buy upgrades!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="game-section">
+                <h1>🍪 Cookie Clicker</h1>
+                <div class="stats">
+                    <div class="stat">
+                        <span>Cookies:</span>
+                        <span id="cookies">0</span>
+                    </div>
+                    <div class="stat">
+                        <span>Per Second:</span>
+                        <span id="cps">0</span>
+                    </div>
+                </div>
+                
+                <button id="cookieButton" class="cookie-btn">
+                    🍪
+                </button>
+                
+                <div class="cheat-section">
+                    <h3>Cheats (for testing only!)</h3>
+                    <button id="infiniteButton" class="cheat-btn">Enable Infinite Cookies</button>
+                    <button id="disableInfiniteButton" class="cheat-btn">Disable Infinite Cookies</button>
+                    <p id="cheatStatus">Status: Normal Mode</p>
+                </div>
+            </div>
+            
+            <div class="shop-section">
+                <h2>Shop</h2>
+                <div id="shop" class="shop-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
